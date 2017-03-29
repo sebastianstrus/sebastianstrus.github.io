@@ -1,0 +1,184 @@
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* CUSTOMIZED CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 240px;
+  margin-bottom: 0;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 240px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 240px;
+}
+
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+}
+
+/* MARKETING
+-------------------------------------------------- */
+
+.marketing {
+  margin: 0 auto;
+  height: 300px;
+}
+
+.marketing .col-md-4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.marketing .col-md-4 .glyphicon {
+  font-size: 60px;
+  background-color: #EAEAEA;
+  border-radius: 50%;
+  padding: 40px;
+  color: #444;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.row h3 {
+  margin: 10px auto;
+  float: center;
+}
+
+/* STICKY FOOTER
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
+
+.main {
+  background: white;
+}
+
+.footer,
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background: #444;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.icon {
+  margin: 0 0 0 32px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 28px;
+}
+
+#SkypeButton_Call_sebek3257_1 {
+  display: inline-block;
+}
+
+.icon:hover, #SkypeButton_Call_sebek3257_1:hover {
+  transform: scale(1.1); 
+}
+
+
+
+.style-five {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.middle {
+  margin: 10px auto;
+  width: 30%;
+}
+
+.background {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h3, .main, .main video {
+  text-align: center;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+footer a {
+    color: gray;
+}
+
+.col-md-8 {
+  margin-top: 40px;
+}
+
+.col-md-8 p {
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+video, .gif {
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.github {
+  height: 32px;
+  width: 32px;
+}
+
+.main {
+  padding: 30px 0 30px 0;
+}
+.main p {
+  width: 250px;
+  color: black;
+}
+
