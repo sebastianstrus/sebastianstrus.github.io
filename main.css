@@ -164,9 +164,11 @@ footer a {
 font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-video, .gif {
+.gif {
   margin: 5px;
   border: 1px solid black;
+  width: 250px;
+  height: 444px;
 }
 
 .github {
