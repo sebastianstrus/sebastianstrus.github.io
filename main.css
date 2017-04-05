@@ -171,6 +171,15 @@ font-family: "Comic Sans MS", cursive, sans-serif;
   height: 444px;
 }
 
+/* Resolve problem with FoodFlash animation */
+#delete_right_border {
+  margin: 5px;
+  border: 1px solid black;
+  width: 250px;
+  height: 444px;
+  border-right: 1px solid white;
+}
+
 .github {
   height: 32px;
   width: 32px;
@@ -186,4 +195,8 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 
 #profile_image {
   margin-top: 50px;
+}
+
+.col-md-8 > p {
+  margin-top: 20px;
 }
