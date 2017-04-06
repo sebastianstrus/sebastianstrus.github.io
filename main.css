@@ -40,6 +40,9 @@
     font-size: 21px;
     line-height: 1.4;
   }
+  #mobil {
+    min-height: 900px;
+  }
 
 }
 
@@ -208,9 +211,4 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 
 .icons {
   margin-bottom: 5px;
-}
-
-#mobil {
-  min-height: 1000px;
-
 }
