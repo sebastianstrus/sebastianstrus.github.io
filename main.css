@@ -200,3 +200,7 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 .col-md-8 > p {
   margin-top: 20px;
 }
+
+.contact {
+  width: 270px;
+}
