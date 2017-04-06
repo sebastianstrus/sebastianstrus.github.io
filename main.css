@@ -107,7 +107,7 @@ footer {
 }
 
 .icon {
-  margin: 0 0 0 32px;
+  margin: 0 0 0 23px;
   display: inline-block;
   vertical-align: top;
   padding-top: 28px;
@@ -203,4 +203,5 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 
 .contact {
   width: 320px;
+  margin: 10px auto;
 }
