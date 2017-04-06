@@ -106,14 +106,14 @@ footer {
 }
 
 .icon {
-  margin: 0 0 0 23px;
+  margin: 28px 0 0 15px;
   display: inline-block;
   vertical-align: top;
-  padding-top: 28px;
 }
 
 #SkypeButton_Call_sebek3257_1 {
   display: inline-block;
+  margin-left: -10px;
 }
 
 .icon:hover, #SkypeButton_Call_sebek3257_1:hover {
@@ -201,10 +201,11 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .contact {
-  width: 320px;
+  width: 330px;
   margin: 10px auto;
 }
 
 .icons {
-  margin-bottom: 5px;
+  width: 350px;
+  margin: 10px auto;
 }
