@@ -200,3 +200,13 @@ font-family: "Comic Sans MS", cursive, sans-serif;
   width: 350px;
   margin: 10px auto;
 }
+
+.iphone {
+  background-image: url("images/iphone.png");
+  width: 294px;
+  height: 590px;
+  background-size: cover;
+  padding-top: 67px;
+  margin: 0 auto 15px auto;
+  padding-bottom: 15px;
+}
