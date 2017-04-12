@@ -151,7 +151,9 @@ footer a {
 }
 
 .col-md-8 p {
-font-family: "Comic Sans MS", sans-serif, sans-serif;
+  font-family: "Comic Sans MS", sans-serif, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .gif {
