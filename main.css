@@ -70,7 +70,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 160px;
+  /*margin-bottom: 160px;*/
 }
 
 
@@ -186,4 +186,6 @@ footer a {
   padding-bottom: 15px;
 }
 
-
+.footer-margin {
+  margin-bottom: 160px;
+}
