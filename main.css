@@ -78,9 +78,9 @@ body {
   margin-bottom: 160px;
 }
 
-.main {
+/*.main {
   background: white;
-}
+}*/
 
 .footer,
 footer {
@@ -97,17 +97,14 @@ footer {
 }
 
 .icon {
-  margin: 28px 0 0 15px;
+  margin: 15px;
   display: inline-block;
   vertical-align: top;
 }
 
-#SkypeButton_Call_sebek3257_1 {
-  display: inline-block;
-  margin-left: -10px;
-}
 
-.icon:hover, #SkypeButton_Call_sebek3257_1:hover {
+
+.icon:hover {
   transform: scale(1.1); 
 }
 
@@ -190,7 +187,7 @@ footer a {
 }
 
 .icons {
-  width: 350px;
+  width: 450px;
   margin: 10px auto;
 }
 
@@ -205,3 +202,8 @@ footer a {
   margin: 0 auto 15px auto;
   padding-bottom: 15px;
 }
+
+.up {
+  z-index: 9;
+}
+
