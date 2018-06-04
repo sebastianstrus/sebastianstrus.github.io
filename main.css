@@ -240,6 +240,10 @@ footer a {
   }
 
   .large-text { display: none; }
+
+  .carousel-caption .margin-bottom {
+    margin-bottom: 18px;
+  }
 }
 
 @media (min-width: 768px) {
