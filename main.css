@@ -43,6 +43,15 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+}
+
 /* MARKETING
 -------------------------------------------------- */
 
