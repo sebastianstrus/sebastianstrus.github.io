@@ -281,13 +281,13 @@ footer a {
   }
   .icons {
     width: 280px;
-    margin: 5px auto 40px auto;
+    margin: 5px auto 200px auto;
   }
 
   h2 {
     margin-top: 5px;
   }
   .contact h2 {
-    font-size: 24;
+    font-size: 20;
   }
 }
