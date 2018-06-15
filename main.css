@@ -224,72 +224,15 @@ footer a {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-
-@media (min-width: 768px) {
-  .mobile-text { display: none; }
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-  .contact {
-    margin-top: 60px;
-  }
+.mobile-text { 
+  display: none; 
+}
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 1.4;
 }
 
-
-
-@media (max-width: 768px) {
-  .icon {
-    margin: 0 15px 15px 15px;
-  }
-  .carousel-caption  h1 {
-    font-size: 22px;
-  }
-  .carousel-caption  p {
-    font-size: 16px;
-  }
-
-  .large-text { display: none; }
-
-  .margin-bottom {
-    margin-bottom: 18px;
-  }
-
-  footer {
-    padding-top: 10px 0;
-  }
-  footer h3 {
-    font-size: 20px;
-  }
-}
-
-
-
-@media (max-width: 590px) {
-  footer {
-    height: 124px;
-    padding: 5px 0;
-  }
-  footer h3 {
-    font-size: 18px;
-  }
-  .icon {
-    margin: 0 15px 10px 15px;
-  }
-  .icons {
-    width: 280px;
-    margin: 5px auto 300px auto;
-  }
-
-  h2 {
-    margin-top: 5px;
-  }
-  .contact h2 {
-    font-size: 20;
-  }
-  #seb {
-    font-size: 150;
-  }
-
+.contact {
+  margin-top: 60px;
 }
