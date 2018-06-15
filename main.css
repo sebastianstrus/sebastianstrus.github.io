@@ -293,10 +293,7 @@ footer a {
 }
 
 @media (max-width: 800px) {
-  .contact h2 {
+  #seb {
     font-size: 50;
-  }
-  .mobile-text {
-    display: none;
   }
 }
