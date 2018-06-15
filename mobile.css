@@ -100,7 +100,7 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 160px;
-    background: #0000b3;
+    background: #ff0000;/*#0000b3;*/
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 30px 0;
