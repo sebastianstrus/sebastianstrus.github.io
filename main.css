@@ -268,3 +268,12 @@ footer a {
   }
 }
 
+@media (max-width: 400px) {
+  footer {
+    height: 160px;
+    padding: 10px 0;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+}
