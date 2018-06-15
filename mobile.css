@@ -1,30 +1,4 @@
 
-/*@media (max-width: 350px) {
-    footer {
-      height: 124px;
-      padding: 5px 0;
-    }
-    footer h3 {
-      font-size: 18px;
-    }
-    .icon {
-      margin: 0 15px 10px 15px;
-    }
-    .icons {
-      width: 280px;
-      margin: 5px auto 300px auto;
-    }
-    h2 {
-      margin-top: 5px;
-    }
-    .contact h2 {
-      font-size: 20;
-    }
-    #seb {
-      font-size: 150;
-    }
-  
-}*/
 
 /* NAVBAR
 -------------------------------------------------- */
@@ -100,7 +74,7 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 160px;
-    background: #ff0000;/*#0000b3;*/
+    background: #0000b3;/* color blue: #0000b3;   red: #ff0000 */
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 30px 0;
@@ -267,7 +241,7 @@ footer a {
 }
   
 .large-text { 
-    isplay: none; 
+    display: none; 
 }
   
 .margin-bottom {
@@ -283,4 +257,25 @@ footer h3 {
 }
   
 
-  
+@media (max-width: 350px) {
+    footer {
+      height: 124px;
+      padding: 5px 0;
+    }
+    footer h3 {
+      font-size: 18px;
+    }
+    .icon {
+      margin: 0 15px 10px 15px;
+    }
+    .icons {
+      width: 280px;
+      margin: 5px auto 300px auto;
+    }
+    h2 {
+      margin-top: 5px;
+    }
+    .contact h2 {
+      font-size: 20;
+    }  
+}
