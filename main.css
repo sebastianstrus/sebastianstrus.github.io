@@ -248,12 +248,9 @@ footer a {
 }
 
 @media (min-width: 768px) {
-  .mobile-text{ display: none; }
+  .mobile-text { display: none; }
 }
 
-@media (max-width: 768px) {
-  .mobile-text{ display: none; }
-}
 
 @media (max-width: 700px) {
   footer {
