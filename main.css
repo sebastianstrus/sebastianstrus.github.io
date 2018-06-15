@@ -51,8 +51,14 @@
 }
 
 h2 {
-  margin-top: 60px;
+  margin-top: 10px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    margin-top: 60px;
+  }
 }
 
 .row h3 {
