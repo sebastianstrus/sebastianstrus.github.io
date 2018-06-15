@@ -191,6 +191,11 @@ footer a {
   width: 330px;
   margin: 10px auto;
 }
+@media (min-width: 768px) {
+  .contact {
+    margin-top: 60px;
+  }
+}
 
 .icons {
   width: 280px;
