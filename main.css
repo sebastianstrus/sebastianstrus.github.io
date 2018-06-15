@@ -233,6 +233,9 @@ footer a {
 }
 
 @media (max-width: 768px) {
+  .icon {
+    margin: 0 15px 15px 15px;
+  }
   .carousel-caption  h1 {
     font-size: 22px;
   }
@@ -254,7 +257,6 @@ footer a {
 @media (max-width: 700px) {
   footer {
     padding-top: 10px 0;
-
   }
   footer h3 {
     font-size: 20px;
