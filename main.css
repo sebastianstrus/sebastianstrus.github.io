@@ -55,16 +55,11 @@ h2 {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  h2 {
-    margin-top: 60px;
-  }
-}
-
 .row h3 {
   margin: 10px auto;
   float: center;
 }
+
 
 /* STICKY FOOTER
 -------------------------------------------------- */
@@ -90,7 +85,7 @@ footer {
   background: #0000b3;
   color: white;
   text-shadow: 1px 1px 1px black;
-  padding: 40px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -255,3 +250,18 @@ footer a {
 @media (min-width: 768px) {
   .mobile-text{ display: none; }
 }
+
+@media (max-width: 768px) {
+  .mobile-text{ display: none; }
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding-top: 10px 0;
+
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+}
+
