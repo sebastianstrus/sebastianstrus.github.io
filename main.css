@@ -270,7 +270,7 @@ footer a {
 
 @media (max-width: 400px) {
   footer {
-    height: 100px;
+    height: 124px;
     padding: 5px 0;
   }
   footer h3 {
@@ -279,8 +279,15 @@ footer a {
   .icon {
     margin: 0 15px 10px 15px;
   }
-  /*.icons {
+  .icons {
     width: 280px;
-    margin: 10px auto 40px auto;
-  }*/
+    margin: 5px auto 40px auto;
+  }
+
+  h2 {
+    margin-top: 5px;
+  }
+  .contact h2 {
+    font-size: 24;
+  }
 }
