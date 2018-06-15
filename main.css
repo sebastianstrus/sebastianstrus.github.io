@@ -33,14 +33,6 @@
   height: 240px;
 }
 
-@media (min-width: 768px) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-}
 
 /* MARKETING
 -------------------------------------------------- */
@@ -191,11 +183,6 @@ footer a {
   width: 330px;
   margin: 10px auto;
 }
-@media (min-width: 768px) {
-  .contact {
-    margin-top: 60px;
-  }
-}
 
 .icons {
   width: 280px;
@@ -237,6 +224,21 @@ footer a {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
+
+@media (min-width: 768px) {
+  .mobile-text { display: none; }
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .contact {
+    margin-top: 60px;
+  }
+}
+
+
+
 @media (max-width: 768px) {
   .icon {
     margin: 0 15px 15px 15px;
@@ -253,13 +255,7 @@ footer a {
   .margin-bottom {
     margin-bottom: 18px;
   }
-}
-
-@media (min-width: 768px) {
-  .mobile-text { display: none; }
-}
-
-@media (max-width: 700px) {
+  
   footer {
     padding-top: 10px 0;
   }
@@ -268,7 +264,9 @@ footer a {
   }
 }
 
-@media (max-width: 480px) {
+
+
+@media (max-width: 5000px) {
   footer {
     height: 124px;
     padding: 5px 0;
@@ -290,10 +288,8 @@ footer a {
   .contact h2 {
     font-size: 20;
   }
-}
-
-@media (max-width: 800px) {
   #seb {
-    font-size: 50;
+    font-size: 150;
   }
+
 }
