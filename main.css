@@ -276,4 +276,7 @@ footer a {
   footer h3 {
     font-size: 18px;
   }
+  .icon {
+    margin: 0 15px 10px 15px;
+  }
 }
