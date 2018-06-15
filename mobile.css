@@ -74,7 +74,7 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 160px;
-    background: #0000b3;/* color blue: #0000b3;   red: #ff0000 */
+    background: #ff0000;/* color blue: #0000b3;   red: #ff0000 */
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 30px 0;
@@ -256,8 +256,34 @@ footer h3 {
     font-size: 20px;
 }
   
-
-@media (max-width: 350px) {
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) {
+     /* STYLES GO HERE */
+     footer {
+        height: 124px;
+        padding: 5px 0;
+      }
+      footer h3 {
+        font-size: 18px;
+      }
+      .icon {
+        margin: 0 15px 10px 15px;
+      }
+      .icons {
+        width: 280px;
+        margin: 5px auto 300px auto;
+      }
+      h2 {
+        margin-top: 5px;
+      }
+      .contact h2 {
+        font-size: 20;
+      }  
+      .footer, footer {
+        background: #00ff00;
+    }
+/* @media (max-width: 350px) {
     footer {
       height: 124px;
       padding: 5px 0;
@@ -278,4 +304,4 @@ footer h3 {
     .contact h2 {
       font-size: 20;
     }  
-}
+} */
