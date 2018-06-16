@@ -74,16 +74,11 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 160px;
-    background: #ff0000;/* color blue: #0000b3;   red: #ff0000 */
+    background: #0000b3;
     color: white;
     text-shadow: 1px 1px 1px black;
-    padding: 30px 0;
     text-align: center;
   }
-  
-/*#contact-footer {
-    position: fixed;
-}*/
   
 .icon {
     margin: 15px;
@@ -184,7 +179,7 @@ footer a {
   
 .contact {
     width: 330px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
   
 .icons {
@@ -205,7 +200,7 @@ footer a {
 }
   
 .footer-margin {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
   
 #topBtn {
@@ -249,7 +244,7 @@ footer a {
 }
   
 footer {
-    padding-top: 10px 0;
+    padding-top: 10px;
 }
 
 footer h3 {
@@ -263,29 +258,33 @@ and (max-width : 350px) {
      /* STYLES GO HERE */
      footer {
         /* height: 124px; */
-        height: 104px;
-        padding: 5px 0;
-      }
+        height: 95px;
+        padding: 0 0;
+    }
     footer h3 {
         font-size: 18px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    footer p {
+        font-size: 12px;
     }
     .icon {
-        margin: 0 15px 10px 15px;
+        margin: 0 15px 0 15px;
     }
     .icons {
         width: 280px;
-        margin: 5px auto 300px auto;
+        margin: 0 auto 0 auto;
     }
-    h2 {
-        margin-top: 5px;
-    }
+
     .contact h2 {
-        font-size: 20;
+        font-size: 20px;
     }  
-    .footer, footer {
-        background: #00fff0;
+    footer {
+        padding-top: 0px;
     }
-    .footer-margin {
-        margin-bottom: 200px;
+    #topBtn {
+        bottom: 10px; /* Place the button at the bottom of the page */
+        right: 15px;
     }
 }
