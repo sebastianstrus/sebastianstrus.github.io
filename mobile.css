@@ -256,9 +256,35 @@ footer h3 {
     font-size: 20px;
 }
   
-@media only screen 
-and (min-width : 320px) 
+/* @media only screen 
 and (max-width : 568px) {
+     footer {
+        height: 124px;
+        padding: 5px 0;
+      }
+      footer h3 {
+        font-size: 18px;
+      }
+      .icon {
+        margin: 0 15px 10px 15px;
+      }
+      .icons {
+        width: 280px;
+        margin: 5px auto 300px auto;
+      }
+      h2 {
+        margin-top: 5px;
+      }
+      .contact h2 {
+        font-size: 20;
+      }  
+      .footer, footer {
+        background: #00ff00;
+    }
+} */
+
+@media only screen 
+and (max-width : 350px) {
      /* STYLES GO HERE */
      footer {
         height: 124px;
@@ -283,25 +309,4 @@ and (max-width : 568px) {
       .footer, footer {
         background: #00ff00;
     }
-/* @media (max-width: 350px) {
-    footer {
-      height: 124px;
-      padding: 5px 0;
-    }
-    footer h3 {
-      font-size: 18px;
-    }
-    .icon {
-      margin: 0 15px 10px 15px;
-    }
-    .icons {
-      width: 280px;
-      margin: 5px auto 300px auto;
-    }
-    h2 {
-      margin-top: 5px;
-    }
-    .contact h2 {
-      font-size: 20;
-    }  
-} */
+}
