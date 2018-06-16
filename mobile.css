@@ -68,12 +68,12 @@ body {
 }
   
   
-.footer, footer {
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
+    height: 140px;
     background: #0000b3;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -200,7 +200,7 @@ footer a {
 }
   
 .footer-margin {
-    margin-bottom: 100px;
+    margin-bottom: 134px;
 }
   
 #topBtn {
@@ -250,6 +250,10 @@ footer {
 footer h3 {
     font-size: 20px;
 }
+
+.contact h2{
+    margin-top: 20px;
+}
   
 
 
@@ -279,6 +283,7 @@ and (max-width : 350px) {
 
     .contact h2 {
         font-size: 20px;
+        margin-top: 10px;
     }  
     footer {
         padding-top: 0px;
@@ -286,5 +291,8 @@ and (max-width : 350px) {
     #topBtn {
         bottom: 10px; /* Place the button at the bottom of the page */
         right: 15px;
+    }
+    .footer-margin {
+        margin-bottom: 76px;
     }
 }
