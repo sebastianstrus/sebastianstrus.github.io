@@ -263,7 +263,7 @@ and (max-width : 350px) {
      /* STYLES GO HERE */
      footer {
         /* height: 124px; */
-        height: 154px;
+        height: 104px;
         padding: 5px 0;
       }
       footer h3 {
@@ -283,6 +283,6 @@ and (max-width : 350px) {
         font-size: 20;
       }  
       .footer, footer {
-        background: #00fff0;
+        background: #00ff00;
     }
 }
