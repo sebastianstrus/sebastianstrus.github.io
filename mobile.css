@@ -266,23 +266,26 @@ and (max-width : 350px) {
         height: 104px;
         padding: 5px 0;
       }
-      footer h3 {
+    footer h3 {
         font-size: 18px;
-      }
-      .icon {
+    }
+    .icon {
         margin: 0 15px 10px 15px;
-      }
-      .icons {
+    }
+    .icons {
         width: 280px;
         margin: 5px auto 300px auto;
-      }
-      h2 {
+    }
+    h2 {
         margin-top: 5px;
-      }
-      .contact h2 {
+    }
+    .contact h2 {
         font-size: 20;
-      }  
-      .footer, footer {
-        background: #00ff00;
+    }  
+    .footer, footer {
+        background: #00fff0;
+    }
+    .footer-margin {
+        margin-bottom: 200px;
     }
 }
