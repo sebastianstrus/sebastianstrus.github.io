@@ -296,3 +296,7 @@ and (max-width : 350px) {
         margin-bottom: 76px;
     }
 }
+
+#workflow {
+    width: 100%;
+}
