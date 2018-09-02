@@ -241,3 +241,7 @@ footer a {
 #workflow {
   width: 100%;
 }
+
+.main h1 {
+  font-size: 45px;
+}
