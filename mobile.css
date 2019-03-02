@@ -191,13 +191,20 @@ footer a {
 .iphone {
     background-image: url("images/iphone.png");
     background-repeat:no-repeat;
-    overflow: hidden;
+    overflow: visible;
     width: 294px;
     height: 590px;
     background-size: cover;
     padding-top: 67px;
     margin: 0 auto 15px auto;
     padding-bottom: 15px;
+    padding-bottom: 15px;
+    filter: drop-shadow(8px 8px 8px #666);
+  }
+  
+.col-md-3 img {
+    filter: drop-shadow(5px 5px 10px #666);
+    border-radius: 10px;
 }
   
 .footer-margin {
@@ -223,6 +230,10 @@ footer a {
     background-color: #555; /* Add a dark-grey background on hover */
 }
   
+body > button  
+{
+  filter: drop-shadow(3px 3px 5px #666);
+}
 
 .icon {
     margin: 0 15px 15px 15px;
