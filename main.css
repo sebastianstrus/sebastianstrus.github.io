@@ -236,6 +236,10 @@ footer a {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
+#main_title {
+  font-family: "Audiowide";
+}
+
 .mobile-text { 
   display: none; 
 }
