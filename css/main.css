@@ -191,6 +191,12 @@ main {
     margin-bottom: 80px;
   }
   .item img:nth-child(1) {
+    
+    width: 278px;
+    /* border: 3px #fff solid;  */
+  }
+  .item a:nth-child(4) {
+    
     width: 278px;
     /* border: 3px #fff solid;  */
   }
@@ -198,7 +204,7 @@ main {
     position: absolute;
     width: 236px;
     top: 68px;
-    left: 22px;
+    left: 21px;
 
     
     /* border: 3px #fff solid;  */
@@ -301,11 +307,14 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } 
+    grid-template-columns: repeat(3, 1fr); } 
     .web {
       display: none; 
     }
   }
+
+
+  
 
 @media screen and (max-width: 500px) {
   main {
@@ -316,6 +325,10 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } 
+    grid-template-columns: 1fr; 
+  } 
+  .projects .item img:nth-child(2) {
+    left: 38px;
+  }
 
 }
