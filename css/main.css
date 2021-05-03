@@ -342,7 +342,7 @@ main {
     grid-template-columns: 1fr; 
   } 
   .projects .item img:nth-child(2) {
-    left: 21px;
+    left: 38px;
   }
 
 }
