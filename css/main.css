@@ -293,7 +293,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+  }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -341,7 +342,7 @@ main {
     grid-template-columns: 1fr; 
   } 
   .projects .item img:nth-child(2) {
-    left: 38px;
+    left: 21px;
   }
 
 }
