@@ -212,7 +212,7 @@ main {
   }
 
   .projects p {
-    text-align: center;
+    /* text-align: center; */
   }
 
   .main-project img {
