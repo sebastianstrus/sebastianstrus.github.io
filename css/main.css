@@ -325,6 +325,12 @@ main {
     .web {
       display: none; 
     }
+
+    .item .btn-dark {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   }
 
 
@@ -344,5 +350,37 @@ main {
   .projects .item img:nth-child(2) {
     left: 38px;
   }
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) {
+  .projects .item img:nth-child(2) {
+    left: 56px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 390px) {
+  .projects .item img:nth-child(2) {
+    left:45px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+  .projects .item img:nth-child(2) {
+    left: 30px;
+  }
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+  .projects .item img:nth-child(2) {
+    left: 22px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 280px) {
+  .projects .item img:nth-child(2) {
+    left: 20px;
+  }
+}
+
+
