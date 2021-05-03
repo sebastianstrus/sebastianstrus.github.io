@@ -186,6 +186,7 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
+
   .item {
     position: relative;
     margin-bottom: 80px;
@@ -209,10 +210,22 @@ main {
     
     /* border: 3px #fff solid;  */
   }
-    /* .projects img:hover {
-      opacity: 0.5;
+
+  .projects p {
+    text-align: center;
+  }
+
+  .main-project img {
+    border: 3px #fff solid;
+    width: 100%;
+  }
+
+  .main-project img:hover {
+    opacity: 0.5;
       border-color: #66d3fa;
-      transition: all 0.5s ease-out; } */
+      transition: all 0.5s ease-out;
+  }
+
 
 .boxes {
   display: flex;
