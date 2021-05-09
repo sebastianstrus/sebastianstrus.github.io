@@ -295,9 +295,10 @@ main {
     align-items: center;
     text-align: center;
   }
-    main .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem; }
+  main .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem; 
+  }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -313,25 +314,28 @@ main {
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
-    .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
-      width: 150px;
-      height: 150px; }
+  .menu-branding .portrait {
+    background: url("../img/portrait_small.jpg");
+    width: 150px;
+    height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } 
-    .web {
-      display: none; 
-    }
-
-    .item .btn-dark {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
+  .web {
+    display: none; 
   }
+
+  .item .btn-dark {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .boxes div {
+    font-size: 1.4rem;
+  }
+}
 
 
   
@@ -350,6 +354,14 @@ main {
   .projects .item img:nth-child(2) {
     left: 38px;
   }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 480px) {
+  .projects .item img:nth-child(2) {
+    left: 90px;
+  }
 }
 
 @media screen and (min-width: 411px) and (max-width: 414px) {
@@ -364,6 +376,12 @@ main {
   }
 }
 
+@media screen and (min-width: 384px) and (max-width: 384px) {
+  .projects .item img:nth-child(2) {
+    left:42px;
+  }
+}
+
 @media screen and (min-width: 360px) and (max-width: 360px) {
   .projects .item img:nth-child(2) {
     left: 30px;
@@ -375,11 +393,26 @@ main {
   .projects .item img:nth-child(2) {
     left: 22px;
   }
+  #contact .boxes div {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 280px) and (max-width: 280px) {
   .projects .item img:nth-child(2) {
     left: 20px;
+  }
+  #contact .boxes div {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 240px) {
+  .projects .item img:nth-child(2) {
+    left: 21px;
+  }
+  #contact .boxes div {
+    font-size: 1.1rem;
   }
 }
 
