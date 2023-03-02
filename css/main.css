@@ -227,10 +227,18 @@ main {
     width: 278px;
   }
 
-  .phone-item a {
+  .phone-item > a {
     position: absolute;
     bottom: 0px;
     width: 278px;
+  }
+
+  p > a {
+    color: #66d3fa;
+  }
+
+  p > a:hover {
+    color: #66aefa;
   }
 
   .main-project img {
