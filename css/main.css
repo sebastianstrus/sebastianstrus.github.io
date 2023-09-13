@@ -57,7 +57,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 2px #66d3fa; }
+      border: solid 1px #66d3fa; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -163,7 +163,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #66d3fa 2px solid; }
+    border: #66d3fa 1px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; 
