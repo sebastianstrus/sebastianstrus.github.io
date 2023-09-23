@@ -327,6 +327,16 @@ main {
     align-items: center;
     text-align: center;
   }
+
+  main .description {
+    text-align: left;
+    margin-top: -50px;
+  }
+
+  ol {
+    padding-left: 18px;
+  }
+
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem; 
