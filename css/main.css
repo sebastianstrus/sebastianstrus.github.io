@@ -233,7 +233,7 @@ main {
     width: 278px;
   }
 
-  p > a {
+  p > a, li > a {
     color: #66d3fa;
   }
 
