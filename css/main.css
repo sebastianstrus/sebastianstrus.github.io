@@ -342,8 +342,10 @@ main {
 
   main .lg-heading {
     line-height: 1;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
   }
+
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -381,15 +383,11 @@ main {
     font-size: 1.4rem;
   }
 
-  #learning {
+  #learning .row {
     text-align: left;
   }
 
-  .menu .nav-link {
-
-    font-size: 26px;
-    padding: 0.8rem 0;
-  }
+  
 }
 
 
@@ -402,8 +400,17 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 4rem; }
+      font-size: 3rem; }
   .projects {
     grid-template-columns: 1fr; 
   } 
+
+  .menu .nav-link {
+
+    font-size: 24px;
+    padding: 0.7rem 0;
+    
+  }
+
+
 }
