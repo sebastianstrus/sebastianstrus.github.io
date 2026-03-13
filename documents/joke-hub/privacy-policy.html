@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Joke Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-deep:    #0f2123;
+      --bg-mid:     #1a3840;
+      --bg-card:    #1e4048;
+      --accent:     #6c63f5;
+      --accent-2:   #9b59f5;
+      --text-main:  #e8eeef;
+      --text-muted: #8aabaf;
+      --border:     rgba(255,255,255,0.08);
+      --radius:     16px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--bg-deep);
+      background-image:
+        radial-gradient(ellipse 60% 50% at 20% 10%, rgba(108,99,245,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 40% at 80% 80%, rgba(26,56,64,0.8) 0%, transparent 70%);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 28px 48px;
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(15,33,35,0.85);
+    }
+
+    .logo-emoji { font-size: 26px; line-height: 1; }
+
+    .logo-text {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--text-main);
+      letter-spacing: -0.3px;
+    }
+
+    .badge {
+      margin-left: auto;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      text-align: center;
+      padding: 80px 24px 56px;
+    }
+
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(108,99,245,0.12);
+      border: 1px solid rgba(108,99,245,0.25);
+      border-radius: 20px;
+      padding: 5px 16px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(36px, 6vw, 54px);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      color: var(--text-main);
+      margin-bottom: 16px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    .hero-meta {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* ── Main layout ── */
+    .container {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* ── Sections ── */
+    .section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 36px;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .section:hover { border-color: rgba(255,255,255,0.14); }
+    .section:hover::before { opacity: 1; }
+
+    .section-icon {
+      font-size: 22px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(108,99,245,0.35);
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    a:hover {
+      color: #9b8ff8;
+      border-color: #9b8ff8;
+    }
+
+    /* ── No-data pills ── */
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 5px 12px;
+    }
+
+    .pill-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #3fc98e;
+      flex-shrink: 0;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    footer span { margin: 0 8px; opacity: 0.35; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header { padding: 20px 20px; }
+      .hero { padding: 56px 20px 40px; }
+      .section { padding: 24px 22px; }
+      .badge { display: none; }
+    }
+
+    /* ── Fade-in animation ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero { animation: fadeUp 0.55s ease both; }
+    .section:nth-child(1) { animation: fadeUp 0.55s 0.05s ease both; }
+    .section:nth-child(2) { animation: fadeUp 0.55s 0.12s ease both; }
+    .section:nth-child(3) { animation: fadeUp 0.55s 0.19s ease both; }
+    .section:nth-child(4) { animation: fadeUp 0.55s 0.26s ease both; }
+    .section:nth-child(5) { animation: fadeUp 0.55s 0.33s ease both; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="logo-emoji">😂</span>
+    <span class="logo-text">Joke Hub</span>
+    <span class="badge">Legal</span>
+  </header>
+
+  <div class="hero">
+    <span class="hero-eyebrow">Privacy Policy</span>
+    <h1>We keep your laughs.<br><em>Not your data.</em></h1>
+    <p class="hero-meta">Effective Date: March 13, 2026</p>
+  </div>
+
+  <div class="container">
+
+    <div class="section">
+      <span class="section-icon">🔒</span>
+      <h2>Our Commitment</h2>
+      <p>At Joke Hub, your privacy is as important to us as a perfectly timed punchline. This Privacy Policy explains our straightforward commitment: we don't collect any information about you. Period.</p>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">🚫</span>
+      <h2>Information We Do Not Collect</h2>
+      <p>Joke Hub is designed to be a completely private experience. We do not collect, use, save, or share any personal information from users — including, but not limited to:</p>
+      <div class="pill-row">
+        <span class="pill"><span class="pill-dot"></span>Names</span>
+        <span class="pill"><span class="pill-dot"></span>Email addresses</span>
+        <span class="pill"><span class="pill-dot"></span>Location data</span>
+        <span class="pill"><span class="pill-dot"></span>Device identifiers</span>
+        <span class="pill"><span class="pill-dot"></span>Usage logs</span>
+        <span class="pill"><span class="pill-dot"></span>Crash reports</span>
+        <span class="pill"><span class="pill-dot"></span>Analytics</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">👶</span>
+      <h2>Children's Privacy</h2>
+      <p>Joke Hub is family-friendly and suitable for all ages. In compliance with the Children's Online Privacy Protection Act (COPPA), we do not collect any personal information from children under the age of 13. We do not ask for identifiable information from any user, and we do not share data with any third parties.</p>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">📢</span>
+      <h2>No Ads or In-App Purchases</h2>
+      <p>Joke Hub is entirely ad-free and contains no in-app subscriptions or purchases. There are no third-party advertising SDKs, no tracking pixels, and no external links to commercial content within the app. The only thing we're selling is laughter — and that's free.</p>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">📋</span>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. If we make any significant changes, we will notify users by updating the effective date at the top of this page.</p>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">✉️</span>
+      <h2>Contact Us</h2>
+      <p>Have questions or concerns about this Privacy Policy? We'd love to hear from you — even if it's just to share a joke.</p>
+      <p style="margin-top: 12px;">
+        <a href="mailto:nordic.apps.feedback@gmail.com">nordic.apps.feedback@gmail.com</a>
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Joke Hub. All rights reserved.
+    <span>·</span>
+    Made with 😂 by Sebastian Strus
+  </footer>
+
+</body>
+</html>
