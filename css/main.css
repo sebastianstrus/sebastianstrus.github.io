@@ -204,6 +204,12 @@ main {
     margin-bottom: 8px;
   }
 
+  .item .new-gif {
+    width: 252px !important;
+    transform: translateX(-9px) translateY(-60px) !important;
+    border-radius: 28px;
+  }
+
   .item a:nth-child(4) {
     width: 278px;
   }
