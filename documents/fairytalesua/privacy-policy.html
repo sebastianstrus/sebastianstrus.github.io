@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – Світ Казок</title>
+    <meta name="description" content="Privacy Policy for Світ Казок iOS app.">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background-color: #f5f5f7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 48px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #1d1d1f;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        p, li {
+            margin-bottom: 12px;
+            color: #424245;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .lang-switcher {
+            display: flex;
+            gap: 8px;
+        }
+
+        .lang-btn {
+            background: #f5f5f7;
+            border: 1px solid #d2d2d7;
+            color: #1d1d1f;
+            padding: 6px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            background: #e8e8ed;
+        }
+
+        .lang-btn.active {
+            background: #0071e3;
+            color: #ffffff;
+            border-color: #0071e3;
+        }
+
+        .updated {
+            font-style: italic;
+            color: #6e6e73;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5ea;
+            text-align: center;
+            color: #6e6e73;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+                margin: 10px auto;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Privacy Policy</h1>
+            <div class="lang-switcher">
+                <button class="lang-btn active" onclick="setLanguage('en')" id="btn-en">EN</button>
+                <button class="lang-btn" onclick="setLanguage('uk')" id="btn-uk">UK</button>
+            </div>
+        </header>
+
+        <p class="updated" id="updated">Last updated: May 26, 2026</p>
+
+        <div id="content"></div>
+
+        <footer>
+            <p id="footer-text">&copy; 2026 Sebastian Strus. Світ Казок.</p>
+        </footer>
+    </div>
+
+    <script>
+        const translations = {
+            en: {
+                title: "Privacy Policy",
+                updated: "Last updated: May 26, 2026",
+                footer: "&copy; 2026 Sebastian Strus. Світ Казок.",
+                content: `
+                    <p>This Privacy Policy describes how <strong>Світ Казок</strong> ("the App", "we", "us") handles information when you use our iOS application. By using the App, you agree to the terms described in this policy.</p>
+
+                    <h2>1. Information We Collect</h2>
+                    <p>Світ Казок is designed to respect your privacy. We do <strong>not</strong> collect, store, or share any personally identifiable information.</p>
+                    <ul>
+                        <li>We do not require account registration.</li>
+                        <li>We do not collect your name, email address, phone number, or location.</li>
+                        <li>We do not access your photos, contacts, microphone, or camera.</li>
+                    </ul>
+
+                    <h2>2. Data Stored on Your Device</h2>
+                    <p>The App may store the following information locally on your device only:</p>
+                    <ul>
+                        <li>Your reading progress and preferences.</li>
+                        <li>Purchase status for premium content (managed by Apple).</li>
+                    </ul>
+                    <p>This data never leaves your device and is removed when you uninstall the App.</p>
+
+                    <h2>3. In-App Purchases</h2>
+                    <p>The App offers in-app purchases processed by Apple via the App Store. We do not receive or store your payment information. All transactions are handled by Apple and governed by Apple's Privacy Policy.</p>
+
+                    <h2>4. Third-Party Services</h2>
+                    <p>The App may use the following Apple-provided services:</p>
+                    <ul>
+                        <li><strong>StoreKit</strong> – for managing in-app purchases.</li>
+                    </ul>
+                    <p>We do not use any third-party analytics, advertising, or tracking SDKs.</p>
+
+                    <h2>5. Children's Privacy</h2>
+                    <p>The App is suitable for all ages, including children. Since we do not collect any personal information, the App complies with the Children's Online Privacy Protection Act (COPPA) and similar regulations.</p>
+
+                    <h2>6. Changes to This Policy</h2>
+                    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+                    <h2>7. Contact</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+                    <a href="mailto:nordic.apps.feedback@gmail.com">nordic.apps.feedback@gmail.com</a></p>
+                `
+            },
+            uk: {
+                title: "Політика конфіденційності",
+                updated: "Останнє оновлення: 26 травня 2026 року",
+                footer: "&copy; 2026 Sebastian Strus. Світ Казок.",
+                content: `
+                    <p>Ця Політика конфіденційності описує, як додаток <strong>Світ Казок</strong> («Додаток», «ми», «нас») обробляє інформацію під час використання нашого додатка для iOS. Використовуючи Додаток, ви погоджуєтеся з умовами, описаними в цій політиці.</p>
+
+                    <h2>1. Інформація, яку ми збираємо</h2>
+                    <p>Додаток «Світ Казок» створено з повагою до вашої конфіденційності. Ми <strong>не</strong> збираємо, не зберігаємо та не передаємо жодної особистої інформації.</p>
+                    <ul>
+                        <li>Ми не вимагаємо реєстрації облікового запису.</li>
+                        <li>Ми не збираємо ваше ім'я, адресу електронної пошти, номер телефону або дані про місцезнаходження.</li>
+                        <li>Ми не отримуємо доступу до ваших фотографій, контактів, мікрофона чи камери.</li>
+                    </ul>
+
+                    <h2>2. Дані, що зберігаються на вашому пристрої</h2>
+                    <p>Додаток може зберігати наступну інформацію виключно локально на вашому пристрої:</p>
+                    <ul>
+                        <li>Ваш прогрес читання та налаштування.</li>
+                        <li>Статус покупок преміум-контенту (керується компанією Apple).</li>
+                    </ul>
+                    <p>Ці дані ніколи не залишають вашого пристрою і видаляються під час видалення Додатка.</p>
+
+                    <h2>3. Покупки в додатку</h2>
+                    <p>Додаток пропонує вбудовані покупки, які обробляються компанією Apple через App Store. Ми не отримуємо і не зберігаємо вашу платіжну інформацію. Усі транзакції обробляються компанією Apple та регулюються Політикою конфіденційності Apple.</p>
+
+                    <h2>4. Сторонні сервіси</h2>
+                    <p>Додаток може використовувати наступні сервіси, надані Apple:</p>
+                    <ul>
+                        <li><strong>StoreKit</strong> – для керування вбудованими покупками.</li>
+                    </ul>
+                    <p>Ми не використовуємо жодних сторонніх інструментів аналітики, реклами чи відстеження (SDK).</p>
+
+                    <h2>5. Конфіденційність дітей</h2>
+                    <p>Додаток підходить для користувачів будь-якого віку, включаючи дітей. Оскільки ми не збираємо жодної особистої інформації, Додаток відповідає Закону про захист конфіденційності дітей в Інтернеті (COPPA) та аналогічним нормативним актам.</p>
+
+                    <h2>6. Зміни до цієї Політики</h2>
+                    <p>Ми можемо періодично оновлювати цю Політику конфіденційності. Будь-які зміни будуть опубліковані на цій сторінці з оновленою датою редакції.</p>
+
+                    <h2>7. Контакти</h2>
+                    <p>Якщо у вас виникли запитання щодо цієї Політики конфіденційності, будь ласка, зв'яжіться з нами за адресою:<br>
+                    <a href="mailto:nordic.apps.feedback@gmail.com">nordic.apps.feedback@gmail.com</a></p>
+                `
+            }
+        };
+
+        function setLanguage(lang) {
+            const t = translations[lang];
+            document.getElementById('title').textContent = t.title;
+            document.getElementById('updated').textContent = t.updated;
+            document.getElementById('content').innerHTML = t.content;
+            document.getElementById('footer-text').innerHTML = t.footer;
+            document.documentElement.lang = lang;
+            document.title = t.title + " – Світ Казок";
+
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-uk').classList.toggle('active', lang === 'uk');
+
+            localStorage.setItem('preferredLang', lang);
+        }
+
+        const savedLang = localStorage.getItem('preferredLang');
+        const browserLang = navigator.language.startsWith('uk') ? 'uk' : 'en';
+        setLanguage(savedLang || browserLang);
+    </script>
+</body>
+</html>
