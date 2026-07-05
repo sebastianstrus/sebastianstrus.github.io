@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Privacy Policy for The Clock School — a clock learning app by Sebastian Strus." />
+<title>Privacy Policy — The Clock School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-1: #F2E5BE;
+    --bg-2: #E6D19B;
+    --bg-3: #D6BB78;
+    --card: #FFFDF6;
+    --card-2: #FBF3DF;
+    --text: #2A2015;
+    --text-soft: #6B5230;
+    --gold-glow: #FFE9A8;
+    --gold-bright: #F5D06F;
+    --gold: #D4A64A;
+    --gold-deep: #8F6B1A;
+    --accent: #4A3618;
+    --border: rgba(143, 107, 26, 0.35);
+    --shadow: rgba(90, 60, 10, 0.15);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-1: #0E0918;
+      --bg-2: #180F26;
+      --bg-3: #0A0510;
+      --card: #1B1728;
+      --card-2: #131022;
+      --text: #F4EBD0;
+      --text-soft: #B8A98A;
+      --gold-glow: #FFE9A8;
+      --gold-bright: #F5D06F;
+      --gold: #D4A64A;
+      --gold-deep: #8F6B1A;
+      --accent: #F5D06F;
+      --border: rgba(212, 166, 74, 0.35);
+      --shadow: rgba(0, 0, 0, 0.55);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.7;
+    background:
+      radial-gradient(ellipse at 15% 8%, rgba(255, 243, 200, 0.55), transparent 55%),
+      radial-gradient(ellipse at 88% 95%, rgba(201, 169, 110, 0.35), transparent 55%),
+      linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background:
+        radial-gradient(ellipse at 12% 8%, rgba(212, 166, 74, 0.22), transparent 55%),
+        radial-gradient(ellipse at 90% 92%, rgba(143, 107, 26, 0.28), transparent 55%),
+        linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%);
+      background-attachment: fixed;
+    }
+  }
+
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+
+  header.hero {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .crown {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background:
+      linear-gradient(135deg, #2A2436 0%, #150F20 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold-bright);
+    font-size: 38px;
+    box-shadow:
+      0 0 0 3px var(--gold),
+      0 0 0 4px var(--gold-glow),
+      0 8px 24px var(--shadow);
+    position: relative;
+  }
+
+  .crown::before {
+    content: "";
+    position: absolute;
+    inset: -14px;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg, var(--gold-bright), var(--gold), var(--gold-deep), var(--gold), var(--gold-bright), var(--gold-glow), var(--gold-bright));
+    z-index: -1;
+    filter: blur(6px);
+    opacity: 0.55;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(30px, 5vw, 44px);
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(180deg, var(--accent), var(--gold-deep));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: var(--text-soft);
+    margin: 0;
+    letter-spacing: 0.3px;
+  }
+
+  .updated {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-soft);
+    backdrop-filter: blur(8px);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .updated { background: rgba(255, 255, 255, 0.06); }
+  }
+
+  main.card {
+    background: linear-gradient(135deg, var(--card) 0%, var(--card-2) 100%);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 36px clamp(20px, 5vw, 44px);
+    box-shadow:
+      0 20px 40px var(--shadow),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+
+  main.card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold-deep), var(--gold), var(--gold-bright), var(--gold), var(--gold-deep));
+  }
+
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 36px 0 12px;
+    color: var(--accent);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  h2:first-of-type { margin-top: 8px; }
+
+  h2 .num {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--gold-deep);
+    background: linear-gradient(135deg, var(--gold-glow), var(--gold-bright));
+    padding: 4px 10px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+  }
+
+  p, li {
+    font-size: 16px;
+    color: var(--text);
+  }
+
+  ul {
+    padding-left: 22px;
+  }
+
+  ul li {
+    margin-bottom: 6px;
+  }
+
+  ul li::marker {
+    color: var(--gold-deep);
+  }
+
+  strong { color: var(--accent); font-weight: 600; }
+
+  a {
+    color: var(--gold-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+    transition: color 0.2s ease;
+  }
+  @media (prefers-color-scheme: dark) {
+    a { color: var(--gold-bright); border-bottom-color: var(--gold); }
+  }
+  a:hover { color: var(--gold); }
+
+  .contact-box {
+    margin-top: 32px;
+    padding: 20px 24px;
+    background: linear-gradient(135deg, rgba(212, 166, 74, 0.12), rgba(245, 208, 111, 0.05));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+
+  .contact-box p { margin: 4px 0; }
+  .contact-box .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--gold-deep);
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+
+  hr.divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 32px 0;
+  }
+
+  ::selection {
+    background: var(--gold-bright);
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="crown" aria-hidden="true">&#9819;</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">The Clock School</p>
+      <div class="updated">Last updated: July 2, 2026</div>
+    </header>
+
+    <main class="card">
+      <p>
+        This Privacy Policy describes how <strong>The Clock School</strong> (&ldquo;the App,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;)
+  handles information when you use our iOS application. By using the App, you agree to the terms described in this policy.
+      </p>
+
+      <h2><span class="num">1</span> Information We Do Not Collect</h2>
+      <p>
+        The Clock School does <strong>not</strong> collect, store, or transmit any personally identifiable information.
+        Specifically, we do <strong>not</strong> collect:
+      </p>
+      <ul>
+        <li>Your name, email address, phone number, or postal address</li>
+        <li>Your location or GPS data</li>
+        <li>Your contacts, photos, calendars, or files</li>
+        <li>Any advertising identifiers</li>
+        <li>Any usage analytics or crash reports sent to us</li>
+      </ul>
+      <p>
+        The app does not contain third-party advertising SDKs, analytics SDKs, or tracking libraries.
+      </p>
+
+      <h2><span class="num">2</span> Information Stored Locally on Your Device</h2>
+      <p>
+        To provide the app&rsquo;s features, The Clock School stores the following data <strong>only on your device</strong>
+        (using Apple&rsquo;s standard <code>UserDefaults</code> and app storage):
+      </p>
+      <ul>
+        <li>Your learning progress (which tasks you have completed)</li>
+        <li>Your app preferences (theme, 12/24-hour format, selected language)</li>
+        <li>Optional game results, including a nickname you may enter to save a score</li>
+        <li>Whether you have completed the introductory onboarding</li>
+        <li>Whether you have purchased the Lifetime Access in-app purchase</li>
+      </ul>
+      <p>
+        This information never leaves your device. It is not uploaded to us or to any third party.
+        Deleting the app from your device removes all of this data.
+      </p>
+
+      <h2><span class="num">3</span> In-App Purchases</h2>
+      <p>
+        The Clock School offers a one-time, non-consumable in-app purchase (&ldquo;Lifetime Access&rdquo;) that unlocks
+        the Medium and Hard task categories.
+      </p>
+      <p>
+        Purchases are processed entirely by <strong>Apple&rsquo;s App Store</strong> using Apple&rsquo;s StoreKit framework.
+        We do <strong>not</strong> receive or store your payment information, credit-card number, or Apple ID.
+        Apple provides us only with anonymized information required to grant the entitlement (namely, whether the
+        purchase was made). Purchases are also linked to your Apple ID by Apple, so you can restore your purchase
+        on any device signed in to the same Apple ID.
+      </p>
+      <p>
+        Apple&rsquo;s own Privacy Policy governs the information Apple collects when you make a purchase:
+        <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a>.
+      </p>
+
+      <h2><span class="num">4</span> Children&rsquo;s Privacy</h2>
+      <p>
+        The Clock School is designed to help children and beginners learn to read a clock and is safe for users of
+        all ages. Because the app does not collect any personal information from anyone, it also does not knowingly
+        collect any personal information from children under the age of 13 (or the equivalent minimum age in your
+        jurisdiction). The app contains no third-party advertising, no external links intended for children, no
+        chat, and no social features.
+      </p>
+
+      <h2><span class="num">5</span> Third-Party Services</h2>
+      <p>
+        The Clock School does not integrate with any third-party services that collect personal information.
+        The only external service used is Apple&rsquo;s App Store / StoreKit, solely for processing the optional
+        in-app purchase.
+      </p>
+      <p>
+        The Share button in the app opens the standard iOS share sheet so you can share a link to the app;
+        any information shared through that sheet is handled entirely by the app or service you choose
+        (Messages, Mail, etc.), not by us.
+      </p>
+
+      <h2><span class="num">6</span> Permissions</h2>
+      <p>
+        The Clock School does not request access to your camera, microphone, location, contacts, photos, health
+        data, or any other sensitive device data. The app only uses standard app storage and audio playback
+        (for the built-in sound effects that ship with the app).
+      </p>
+
+      <h2><span class="num">7</span> Data Security</h2>
+      <p>
+        Because we do not collect or transmit personal data, there is no personal data on our servers to be lost,
+        stolen, or misused. Data stored locally on your device is protected by iOS&rsquo;s standard security features.
+      </p>
+
+      <h2><span class="num">8</span> Your Rights</h2>
+      <p>
+        Since The Clock School does not collect personal data, there is no personal data for us to access, correct,
+        export, or delete on your behalf. You are in full control:
+      </p>
+      <ul>
+        <li>You can reset your in-app progress and settings at any time from the Settings screen inside the app.</li>
+        <li>You can uninstall the app from your device to remove all locally stored data.</li>
+        <li>You can manage or restore your in-app purchase through the App Store on your device.</li>
+      </ul>
+
+      <h2><span class="num">9</span> Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect changes in the app or in legal requirements.
+        When we do, we will update the &ldquo;Last updated&rdquo; date at the top of this page. Continued use of the
+        app after any change constitutes acceptance of the updated policy.
+      </p>
+
+      <h2><span class="num">10</span> Contact</h2>
+      <p>
+        If you have any questions or concerns about this Privacy Policy or about The Clock School&rsquo;s privacy
+        practices, please contact us:
+      </p>
+      <div class="contact-box">
+        <p class="label">Email</p>
+        <p><a href="mailto:nordic.apps.feedback@gmail.com">nordic.apps.feedback@gmail.com</a></p>
+      </div>
+
+      <hr class="divider" />
+
+      <footer>
+        &copy; 2026 Sebastian Strus &middot; All rights reserved.
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
