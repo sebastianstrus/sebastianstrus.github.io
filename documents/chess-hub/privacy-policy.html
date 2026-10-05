@@ -381,11 +381,11 @@
             <span class="eyebrow">Legal · Privacy</span>
             <h1>Privacy Policy</h1>
             <p class="lede">Your trust is the foundation of every move we make. This document explains, in plain language, how Chess Hub handles your information.</p>
-            <div class="updated">Last updated: August 3, 2026</div>
+            <div class="updated">Last updated: October 6, 2026</div>
         </header>
 
         <div class="intro-card">
-            <p><strong>The short version.</strong> Chess Hub is a single-player chess puzzle app that runs entirely on your device. We do not collect personal information, we do not require an account, and we do not track you. All settings, preferences, and progress stay on your iPhone or iPad.</p>
+            <p><strong>The short version.</strong> Chess Hub is a single-player chess puzzle app that runs entirely on your device(s). We do not collect personal information, we do not require an account, and we do not track you. All settings, preferences, statistics, and progress — including puzzles you solve in Augmented Reality, on your Apple Watch, or from a Home Screen widget — stay on your own devices.</p>
         </div>
 
         <section>
@@ -396,7 +396,8 @@
                 <li>Your location, contacts, photos, or calendar</li>
                 <li>Advertising identifiers or device fingerprints</li>
                 <li>Usage analytics, crash telemetry, or behavioral data</li>
-                <li>Any information sent to remote servers we control</li>
+                <li>Camera footage, scanned rooms, or any other data captured during Augmented Reality play</li>
+                <li>Any information sent to remote servers we control, including data synced between your iPhone and Apple Watch</li>
             </ul>
         </section>
 
@@ -407,60 +408,85 @@
             <h3>Preferences and Settings</h3>
             <ul>
                 <li><strong>Onboarding state</strong> — so we do not show the introduction on every launch</li>
-                <li><strong>Sound preference</strong> — whether move and effect sounds are enabled</li>
+                <li><strong>Sound preferences</strong> — whether move, success, and failure sounds are enabled</li>
                 <li><strong>Daily reminder settings</strong> — whether the reminder is on, and the time you chose</li>
+                <li><strong>Auto-advance preference</strong> — whether the app automatically moves to the next puzzle after a solve</li>
+                <li><strong>Board theme and piece set</strong> — your chosen visual style for the chessboard, including in Augmented Reality</li>
+                <li><strong>Language selection</strong> — your preferred in-app language</li>
+                <li><strong>Augmented Reality display preferences</strong> — such as lighting and 2D/3D mode choices for the AR board</li>
                 <li><strong>Puzzle progress and favorites</strong> — puzzles you have solved, saved, or marked as favorites</li>
+                <li><strong>Statistics</strong> — solve activity over time, move accuracy, hints used, and puzzles solved via Augmented Reality or the Home Screen widget, used to power the in-app Statistics screen</li>
             </ul>
 
             <div class="callout">
                 <div class="callout-icon">♦</div>
-                <p>You can clear all of this data at any time by deleting the app from your device.</p>
+                <p>You can clear all of this data at any time from the Statistics screen's reset option, or by deleting the app from your device.</p>
             </div>
         </section>
 
         <section>
-            <h2><span class="section-num">03</span> Notifications</h2>
+            <h2><span class="section-num">03</span> Camera Access &amp; Augmented Reality</h2>
+            <p>Chess Hub's Augmented Reality mode lets you place and play a 3D chessboard on a real-world surface using your device's camera and Apple's ARKit framework.</p>
+            <p>The camera feed is processed <strong>entirely on your device</strong> to detect surfaces and position the board. We do not record, store, upload, or have access to your camera feed at any time — it is used transiently by ARKit to render the experience and is never saved by Chess Hub.</p>
+            <p>The first time you open Augmented Reality mode, iOS will ask for your permission to access the camera. You can revoke that permission at any time in the iOS Settings app under <em>Privacy &amp; Security › Camera</em>.</p>
+        </section>
+
+        <section>
+            <h2><span class="section-num">04</span> Apple Watch &amp; Widgets</h2>
+            <p>Chess Hub includes a companion <strong>Apple Watch app</strong> and <strong>interactive Home Screen widgets</strong> (including enlarged widget sizes on iPad). Both extend the same single-player, on-device experience — neither introduces a server or an account.</p>
+
+            <h3>Apple Watch</h3>
+            <p>When you have a paired Apple Watch, Chess Hub keeps your solved puzzles, recently solved puzzles, and favorites in sync between your iPhone and your Watch using Apple's <strong>WatchConnectivity</strong> framework. This sync happens <strong>directly between your own paired devices</strong> — it never passes through a server we operate or any third party.</p>
+
+            <h3>Interactive Widgets</h3>
+            <p>Chess Hub's Home Screen widgets let you solve the daily puzzle — including pawn promotion — directly from the widget, without opening the app. Your in-progress moves and solved status are stored in a local, shared container on your device (an App Group) that only Chess Hub and its widget can read. This data is never transmitted off your device.</p>
+        </section>
+
+        <section>
+            <h2><span class="section-num">05</span> Notifications</h2>
             <p>Chess Hub can send you an optional daily reminder to solve your puzzle. These are <strong>local notifications</strong> — they are scheduled by your device and never routed through our servers.</p>
             <p>The first time you enable the reminder, iOS will ask for your permission. You can revoke that permission at any time in the iOS Settings app under <em>Notifications › Chess Hub</em>.</p>
         </section>
 
         <section>
-            <h2><span class="section-num">04</span> Purchases and Subscriptions</h2>
+            <h2><span class="section-num">06</span> Purchases and Subscriptions</h2>
             <p>Chess Hub offers optional Premium plans (monthly, yearly, and lifetime). All purchases are processed entirely by <strong>Apple through the App Store</strong>.</p>
             <p>We do not see, receive, or store your payment details. Apple handles the transaction, the receipt, and any renewals. To review or manage your subscription, cancel, or request a refund, please visit your Apple ID account settings.</p>
             <p>For information about how Apple handles your purchase data, please refer to Apple's Privacy Policy.</p>
         </section>
 
         <section>
-            <h2><span class="section-num">06</span> Children's Privacy</h2>
+            <h2><span class="section-num">07</span> Children's Privacy</h2>
             <p>Chess Hub is suitable for players of all ages. Because we do not collect personal information from anyone, we do not knowingly collect information from children. The app is safe for family use and complies with Apple's guidelines for apps that may be used by minors.</p>
         </section>
 
         <section>
-            <h2><span class="section-num">07</span> Data Security</h2>
-            <p>Because your data lives only on your device, it is protected by the security of iOS itself — including device encryption, sandboxing, and passcode or biometric protection you have enabled.</p>
+            <h2><span class="section-num">08</span> Data Security</h2>
+            <p>Because your data lives only on your device(s), it is protected by the security of iOS and watchOS themselves — including device encryption, sandboxing, and passcode or biometric protection you have enabled.</p>
             <p>We have no databases of user information to breach, and no user accounts to compromise. This is by design.</p>
         </section>
 
         <section>
-            <h2><span class="section-num">08</span> Your Rights</h2>
+            <h2><span class="section-num">09</span> Your Rights</h2>
             <p>Because Chess Hub does not collect personal information, most data protection rights (access, correction, deletion, portability) apply to data that simply does not exist on our side.</p>
             <p>For the data stored locally in the app, you have full control at all times:</p>
             <ul>
                 <li>Change settings and preferences through the app's Settings screen</li>
-                <li>Disable notifications through iOS Settings</li>
+                <li>Review or reset your solve statistics through the Statistics screen</li>
+                <li>Disable camera access or notifications through iOS Settings</li>
+                <li>Unpair your Apple Watch or remove widgets to stop that device-to-device sync</li>
                 <li>Manage or cancel subscriptions through your Apple ID</li>
                 <li>Delete all local data by uninstalling the app</li>
             </ul>
         </section>
 
         <section>
-            <h2><span class="section-num">09</span> Changes to This Policy</h2>
+            <h2><span class="section-num">10</span> Changes to This Policy</h2>
             <p>If we make material changes to this Privacy Policy, we will update the "Last updated" date above and, when appropriate, notify you within the app. Continued use of Chess Hub after changes take effect constitutes acceptance of the updated policy.</p>
         </section>
 
         <section>
-            <h2><span class="section-num">10</span> Contact</h2>
+            <h2><span class="section-num">11</span> Contact</h2>
             <p>If you have questions about this Privacy Policy or how Chess Hub handles information, we would be glad to hear from you.</p>
             <div class="callout">
                 <div class="callout-icon">✉</div>
