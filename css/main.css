@@ -206,7 +206,7 @@ main {
 
   .item .new-gif {
     width: 252px !important;
-    transform: translateX(-9px) translateY(-60px) !important;
+    transform: translateX(-9px) translateY(-61px) !important;
     border-radius: 28px;
   }
 
