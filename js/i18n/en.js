@@ -82,7 +82,7 @@ window.I18N.en = {
   "apps.mathcamp.text": "Maths practice for primary-school children, released internationally. Free to download with a Premium subscription.",
   "apps.datespark.text": "An icebreaker app with conversation starters and themes for dates that deserve better small talk.",
   "apps.chesshub.text": "Chess puzzles with ratings, streaks and progress tracking in a calm, dark interface.",
-  "apps.clock.text": "Teaches children to read an analogue clock by dragging the hands to match the time.",
+  "apps.clockschool.text": "Children learn to tell the time on an analogue clock across three levels of tasks: tests, pickers and dragging the hands.",
   "apps.storyland.text": "Illustrated stories for children who are learning to read, with progress tracking. The first tales are free, the rest come with Premium.",
   "apps.more.title": "More projects",
   "apps.more.ar": "AR experiments",

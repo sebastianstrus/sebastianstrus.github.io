@@ -82,7 +82,7 @@ window.I18N.pl = {
   "apps.mathcamp.text": "Nauka matematyki dla dzieci ze szkoły podstawowej, wydana międzynarodowo. Darmowa, z subskrypcją Premium.",
   "apps.datespark.text": "Aplikacja na przełamanie lodów: tematy i pytania na randki, które zasługują na lepszą rozmowę.",
   "apps.chesshub.text": "Zadania szachowe z rankingiem, seriami i statystykami postępów w spokojnym, ciemnym interfejsie.",
-  "apps.clock.text": "Uczy dzieci odczytywania zegara analogowego przez ustawianie wskazówek na właściwą godzinę.",
+  "apps.clockschool.text": "Dzieci uczą się odczytywać godzinę na zegarze analogowym w trzech poziomach zadań: testy, wybieranie i przesuwanie wskazówek.",
   "apps.storyland.text": "Ilustrowane opowiadania dla dzieci, które uczą się czytać, ze śledzeniem postępów. Pierwsze bajki są darmowe, pozostałe w wersji Premium.",
   "apps.more.title": "Więcej projektów",
   "apps.more.ar": "Eksperymenty AR",
