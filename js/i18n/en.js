@@ -84,6 +84,7 @@ window.I18N.en = {
   "apps.chesshub.text": "Chess puzzles with ratings, streaks and progress tracking, plus an AR mode that places the board on your table.",
   "apps.clockschool.text": "Children learn to tell the time on an analogue clock across three levels of tasks: tests, pickers and dragging the hands.",
   "apps.storyland.text": "More than 300 AI-illustrated stories for children who are learning to read, with narration and progress tracking. The first tales are free, the rest come with Premium.",
+  "apps.fourify.text": "A four-in-a-row game for two players on one device, built in SwiftUI. Drop discs, line up four and win, with player colours of your choice and sound effects.",
   "apps.poles.text": "A community app for Poles living in Sweden: chat with other users, plus sections for flats, jobs and shopping. Firebase back end with Facebook and Google sign-in.",
   "apps.more.title": "More projects",
   "apps.more.ar": "AR experiments",
