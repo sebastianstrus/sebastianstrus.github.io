@@ -81,7 +81,7 @@ window.I18N.sv = {
   "apps.github": "GitHub",
   "apps.mathcamp.text": "Matteträning för barn i låg- och mellanstadiet, lanserad internationellt. Gratis att ladda ner, med Premium-prenumeration.",
   "apps.datespark.text": "En isbrytarapp med samtalsämnen och teman för dejter som förtjänar bättre småprat.",
-  "apps.chesshub.text": "Schackproblem med rating, sviter och statistik i ett lugnt, mörkt gränssnitt.",
+  "apps.chesshub.text": "Schackproblem med rating, sviter och statistik, plus ett AR-läge som placerar brädet på ditt bord.",
   "apps.clockschool.text": "Barn lär sig klockan på en analog urtavla i tre nivåer av uppgifter: test, väljare och att dra visarna.",
   "apps.storyland.text": "Illustrerade berättelser för barn som lär sig läsa, med koll på framstegen. De första sagorna är gratis, resten ingår i Premium.",
   "apps.more.title": "Fler projekt",
