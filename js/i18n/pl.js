@@ -84,6 +84,7 @@ window.I18N.pl = {
   "apps.chesshub.text": "Zadania szachowe z rankingiem, seriami i statystykami postępów oraz trybem AR, który stawia szachownicę na Twoim stole.",
   "apps.clockschool.text": "Dzieci uczą się odczytywać godzinę na zegarze analogowym w trzech poziomach zadań: testy, wybieranie i przesuwanie wskazówek.",
   "apps.storyland.text": "Ponad 300 opowiadań z ilustracjami AI dla dzieci, które uczą się czytać, z narracją lektora i śledzeniem postępów. Pierwsze bajki są darmowe, pozostałe w wersji Premium.",
+  "apps.poles.text": "Aplikacja społecznościowa dla Polaków w Szwecji: czat z innymi użytkownikami oraz działy z mieszkaniami, pracą i zakupami. Backend na Firebase z logowaniem przez Facebooka i Google.",
   "apps.more.title": "Więcej projektów",
   "apps.more.ar": "Eksperymenty AR",
   "apps.more.cta": "Otwórz profil na GitHubie",

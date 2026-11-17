@@ -84,6 +84,7 @@ window.I18N.sv = {
   "apps.chesshub.text": "Schackproblem med rating, sviter och statistik, plus ett AR-läge som placerar brädet på ditt bord.",
   "apps.clockschool.text": "Barn lär sig klockan på en analog urtavla i tre nivåer av uppgifter: test, väljare och att dra visarna.",
   "apps.storyland.text": "Över 300 AI-illustrerade berättelser för barn som lär sig läsa, med uppläsning och koll på framstegen. De första sagorna är gratis, resten ingår i Premium.",
+  "apps.poles.text": "En community-app för polacker i Sverige: chatt med andra användare och delar för bostäder, jobb och shopping. Firebase som backend med inloggning via Facebook och Google.",
   "apps.more.title": "Fler projekt",
   "apps.more.ar": "AR-experiment",
   "apps.more.cta": "Öppna GitHub-profilen",

@@ -173,7 +173,7 @@ section { background: var(--bg); color: var(--fg); position: relative; }
 
 /* 5. Hero ------------------------------------------------------------------ */
 .hero { background: radial-gradient(70% 90% at 92% 8%, rgba(63, 93, 255, 0.2), transparent 60%), var(--fog); padding-top: calc(var(--header-h) + clamp(2.5rem, 9vh, 7rem)); padding-bottom: clamp(3.5rem, 8vw, 7rem); min-height: min(100svh, 1100px); display: flex; align-items: flex-end; }
-.hero-title { font-size: clamp(2.8rem, 1rem + 8vw, 8.6rem); font-weight: 600; font-stretch: 82%; letter-spacing: -0.035em; line-height: 0.95; max-width: 17ch; }
+.hero-title { font-size: clamp(2.4rem, 0.8rem + 5.2vw, 6rem); font-weight: 600; font-stretch: 82%; letter-spacing: -0.03em; line-height: 0.98; max-width: 20ch; }
 .hero-grid { display: grid; gap: 2.5rem; margin-top: clamp(2.2rem, 5vw, 4.5rem); }
 .hero-intro { font-size: var(--step-1); line-height: 1.42; max-width: 46ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
