@@ -404,6 +404,26 @@
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
   pinQuery.addEventListener('change', measure);
 
+  /* Video lightbox */
+  var vModal = $('#video-modal');
+  if (vModal && typeof vModal.showModal === 'function') {
+    var vEl = $('video', vModal);
+    var closeVideo = function () { if (vModal.open) vModal.close(); };
+    $$('[data-video]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        vEl.src = a.getAttribute('data-video');
+        vModal.setAttribute('aria-label', a.getAttribute('data-video-label') || 'Video');
+        vModal.showModal();
+        var p = vEl.play();
+        if (p && p.catch) p.catch(function () {});
+      });
+    });
+    $('.video-modal-close', vModal).addEventListener('click', closeVideo);
+    vModal.addEventListener('click', function (e) { if (e.target === vModal || e.target === vModal.firstElementChild) closeVideo(); });
+    vModal.addEventListener('close', function () { vEl.pause(); vEl.removeAttribute('src'); vEl.load(); });
+  }
+
   applyLang(storedLang());
   measure();
 })();

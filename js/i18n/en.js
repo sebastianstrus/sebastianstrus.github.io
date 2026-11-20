@@ -7,6 +7,7 @@ window.I18N.en = {
   "a11y.skip": "Skip to content",
   "a11y.menu": "Open menu",
   "a11y.menuClose": "Close menu",
+  "a11y.videoClose": "Close video",
   "a11y.lang": "Language",
   "a11y.home": "Sebastian Strus, back to top",
 
@@ -79,6 +80,7 @@ window.I18N.en = {
   "apps.hint": "Swipe to see more",
   "apps.store": "App Store",
   "apps.github": "GitHub",
+  "apps.promo": "Promo",
   "apps.mathcamp.text": "Maths practice for primary-school children, released internationally. Free to download with a Premium subscription.",
   "apps.datespark.text": "An icebreaker app with conversation starters and themes for dates that deserve better small talk.",
   "apps.chesshub.text": "Chess puzzles with ratings, streaks and progress tracking, plus an AR mode that places the board on your table.",

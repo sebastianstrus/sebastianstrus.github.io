@@ -7,6 +7,7 @@ window.I18N.pl = {
   "a11y.skip": "Przejdź do treści",
   "a11y.menu": "Otwórz menu",
   "a11y.menuClose": "Zamknij menu",
+  "a11y.videoClose": "Zamknij film",
   "a11y.lang": "Język",
   "a11y.home": "Sebastian Strus, wróć na górę",
 
@@ -79,6 +80,7 @@ window.I18N.pl = {
   "apps.hint": "Przesuń, aby zobaczyć więcej",
   "apps.store": "App Store",
   "apps.github": "GitHub",
+  "apps.promo": "Promo",
   "apps.mathcamp.text": "Nauka matematyki dla dzieci ze szkoły podstawowej, wydana międzynarodowo. Darmowa, z subskrypcją Premium.",
   "apps.datespark.text": "Aplikacja na przełamanie lodów: tematy i pytania na randki, które zasługują na lepszą rozmowę.",
   "apps.chesshub.text": "Zadania szachowe z rankingiem, seriami i statystykami postępów oraz trybem AR, który stawia szachownicę na Twoim stole.",

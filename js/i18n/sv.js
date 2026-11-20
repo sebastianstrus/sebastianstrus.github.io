@@ -7,6 +7,7 @@ window.I18N.sv = {
   "a11y.skip": "Hoppa till innehållet",
   "a11y.menu": "Öppna menyn",
   "a11y.menuClose": "Stäng menyn",
+  "a11y.videoClose": "Stäng videon",
   "a11y.lang": "Språk",
   "a11y.home": "Sebastian Strus, till toppen",
 
@@ -79,6 +80,7 @@ window.I18N.sv = {
   "apps.hint": "Svep för att se fler",
   "apps.store": "App Store",
   "apps.github": "GitHub",
+  "apps.promo": "Promo",
   "apps.mathcamp.text": "Matteträning för barn i låg- och mellanstadiet, lanserad internationellt. Gratis att ladda ner, med Premium-prenumeration.",
   "apps.datespark.text": "En isbrytarapp med samtalsämnen och teman för dejter som förtjänar bättre småprat.",
   "apps.chesshub.text": "Schackproblem med rating, sviter och statistik, plus ett AR-läge som placerar brädet på ditt bord.",
